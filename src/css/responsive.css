@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+    main {
+        height: auto;
+        margin: 45px auto 98px auto;
+    }
+
+    .imagens {
+        gap: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1444px) {
+    .imagens {
+        width: 900px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}

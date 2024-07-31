@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Public Sans", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagem {
+    position: relative;
+}
+
+.legenda-imagem {
+    color: #fff;
+    position: absolute;
+    bottom: 43px;
+    left: 20px;
+}
+
+.legenda-imagem h1 {
+    font-weight: 700;
+}
+
+.legenda-imagem p {
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 5px;
+}
